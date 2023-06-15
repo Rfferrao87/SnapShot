@@ -14,7 +14,7 @@ const Form = ({ handleSubmit, history }) => {
       <input
         type="text"
         name="search"
-        placeholder="Pesquisar..."
+        placeholder="Search..."
         onChange={updateSearchInput}
         value={searchEntry}
       />
